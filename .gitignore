@@ -1,0 +1,8 @@
+**/*.iml
+.idea/libraries/
+.idea/shelf/
+.idea/usage.statistics.xml
+.idea/workspace.xml
+
+.gradle/
+build/
