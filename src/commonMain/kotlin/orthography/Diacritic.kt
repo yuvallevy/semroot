@@ -1,0 +1,33 @@
+package orthography
+
+enum class Diacritic : Grapheme {
+    SHEVA_NACH,
+    SHEVA_NA,
+    HATAF_SEGOL,
+    HATAF_PATAH,
+    HATAF_QAMATS,
+    HIRIQ,
+    TSERE,
+    SEGOL,
+    PATAH,
+    PATAH_GNUVA,
+    QAMATS,
+    QAMATS_QATAN,
+    HOLAM,
+    HOLAM_HASER,
+    QUBUTS,
+    SHURUQ,
+    DAGESH_QAL,
+    DAGESH_HAZAQ,
+    RAFE,
+    MAPIQ,
+    OLE,
+    MAQAF,
+    GERESH,
+    GERSHAYIM,
+    // To account for cases where the pronunciation of sheva does not follow the usual rules
+    SHEVA_NACH_E,
+    SHEVA_NACH_SILENT,
+    SHEVA_NA_E,
+    SHEVA_NA_SILENT,
+}
